@@ -1,0 +1,18 @@
+.containerPrincipal {
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 40px;
+    background-color: rgb(118, 121, 193);
+}
+
+
+
+.containerLogin{
+  text-align: center;
+ 
+  
+  
+}
