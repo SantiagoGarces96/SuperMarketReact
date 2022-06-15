@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import md5 from 'md5';
 import {LogoContainer} from "./Narbar.elements";
 
@@ -8,7 +8,7 @@ import Admin from "../assets/img/Admin.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
 
-function Login(props) {
+function Login() {
   
   const navigate = useNavigate();
 

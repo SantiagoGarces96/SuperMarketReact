@@ -12,7 +12,6 @@ import Admin from "../assets/img/Admin.png";
 import {
   FaBars,
   FaTimes,
-  FaHome,
   FaShoppingBag,
   FaBriefcase,
 } from "react-icons/fa";
@@ -37,7 +36,7 @@ const Navbar2 = () => {
 
           <Menu open={showMobileMenu}>
             <MenuItem>
-              <MenuItemLink href="/products">
+              <MenuItemLink href="/Products">
                 <div>
                   <FaShoppingBag /> Productos 
                 </div>
